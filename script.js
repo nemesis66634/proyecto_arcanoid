@@ -7,6 +7,9 @@ canvas.width = 750
 canvas.height = 400
 
 
+
+const jill = document.querySelector("jill1");
+
 //variables pelota
 const ballRadius = 4;
 let x = canvas.width / 2;
@@ -45,8 +48,7 @@ function drawBall() {
 
 
 function drawPaddle(){
-  ctx.fillStyle = 'red';
-  ctx.fillRect(paddlex, paddley, paddleWidth,paddleHeight);
+  ctx.drawImage{jill,100,100,paddleWidth,paddleHeight,paddlex,paddley,paddleWidth,paddleHeight}
 }
 
 
