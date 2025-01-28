@@ -48,7 +48,7 @@ function drawBall() {
 
 
 function drawPaddle(){
-  ctx.drawImage{jill,100,100,paddleWidth,paddleHeight,paddlex,paddley,paddleWidth,paddleHeight}
+  ctx.drawImage{jill,0,100,paddleWidth,paddleHeight,paddlex,paddley,paddleWidth,paddleHeight}
 }
 
 
